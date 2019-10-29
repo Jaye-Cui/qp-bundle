@@ -4,7 +4,7 @@ licensed as follows:
 QP Frameworks
 =========
 The QP Real-Time Embedded Frameworks (RTEFs) are licensed under the
-dual-licensing model, in which both the open source and traditional
+dual-licensing model, in which both the open source (GPL) and traditional
 closed source software distribution models are combined.
 
 ****

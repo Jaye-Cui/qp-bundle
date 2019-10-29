@@ -1,37 +1,37 @@
 ![QP ecosystem](https://www.state-machine.com/img/ql_products.png)
 
 ---------------------------------------------------------------------------
-# About this Repository
-This repository contains QP real-time embedded frameworks (RTEFs) and
-accompanying suite of host-based tools. The main purpose of this
-repository is to provide one-stop, streamlined installation of the
-QP RTEFs and the tools to work with them.
+# About QP-bundle
+QP-bundle provides all QP real-time embedded frameworks (RTEFs) and
+all the accompanying host-based tools bundled together in a single,
+streamlined installation.
 
-The qp-bundle repository contains the following components located in the
-subdirectories:
+After you donwload and install the QP-bundle release specific for your
+host operating system (Windows, Linux or MacOS), the installation
+directory on your disk will contain the following components:
 
 ```
-qp-bundle     - qp-bundle installation directory
+qp-bundle installation directory (C:\qp or $HOME\qp by default)
 |
-+-qp\         - 
-  |
-  +-qpc\      - QP/C    real-time embedded framework (RTEF)
-  +-qpcpp\    - QP/C++  real-time embedded framework (RTEF)
-  +-qpn\      - QP-nano real-time embedded framework (RTEF)
-  +-qm\       - QM model-based design tool
-  +-qtools\   - QTools collection
-  | +-bin\    - QTools executables
-  | +-qclean\ - Source code white space cleaner
-  | +-qspy\   - QSPY host application and utilities
-  | | +-py\   - Python support (QUTest)
-  | |
-  | | (the following subfolders are present on Windows only)
-  | |
-  | +-MinGW\             - GNU C/C++ toolchain for Windows
-  | +-gnu_arm-none-eabi\ - GNU-ARM C/C++ toolset for ARM Cortex-M/R
-  | +-Python37\          - Python 3.7 (for QUTest)
-  | +-tcl_8.6\           - Tcl/Tk 8.6
-```
++-qpc\      - QP/C    real-time embedded framework (RTEF)
++-qpcpp\    - QP/C++  real-time embedded framework (RTEF)
++-qpn\      - QP-nano real-time embedded framework (RTEF)
+|
++-qm\       - QM model-based design tool
+|
++-qtools\   - QTools collection
+| +-bin\    - QTools executables
+| +-qclean\ - Source code white space cleaner
+| +-qspy\   - QSPY host application and utilities
+| | +-py\   - Python support (QUTest)
+| |
+(the following subfolders are present on Windows only)
+| |
+| +-MinGW\             - GNU C/C++ toolchain for Windows (MinGW)
+| +-gnu_arm-none-eabi\ - GNU-ARM C/C++ toolset for ARM Cortex-M/R
+| +-Python38\          - Python 3.8 (for QUTest)
+| +-tcl_8.6\           - Tcl/Tk 8.6
+
 
 > NOTE: A description of each component is provided in the README.md
 files inside the project sub-directories.
@@ -70,9 +70,10 @@ Commercial technical support is described at:
 ---------------------------------------------------------------------------
 ### Bug Reports and Feature Requests
 
-Please use the Tickets menu.
 - Bug reports:      https://sourceforge.net/p/qpc/bugs
 - Feature requests: https://sourceforge.net/p/qpc/feature-requests/
+
+Please use the "Create Ticket" menu.
 
 
 ---------------------------------------------------------------------------
