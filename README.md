@@ -6,6 +6,13 @@ QP-bundle provides all QP real-time embedded frameworks (RTEFs) and
 all the accompanying host-based tools bundled together in a single,
 streamlined installation.
 
+
+## Downloading QP-bundle
+You downlod QP-bundle from the **releases** section of the repository:
+
+- https://github.com/QuantumLeaps/qp-bundle/releases
+
+
 After you donwload and install the QP-bundle release specific for your
 host operating system (Windows, Linux or MacOS), the installation
 directory on your disk will contain the following components:
@@ -31,7 +38,7 @@ qp-bundle installation directory (C:\qp or $HOME\qp by default)
 | +-gnu_arm-none-eabi\ - GNU-ARM C/C++ toolset for ARM Cortex-M/R
 | +-Python38\          - Python 3.8 (for QUTest)
 | +-tcl_8.6\           - Tcl/Tk 8.6
-
+```
 
 > NOTE: A description of each component is provided in the README.md
 files inside the project sub-directories.
